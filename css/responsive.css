@@ -1,0 +1,310 @@
+.toly-big-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    /*overflow: hidden;*/
+}
+
+
+@media screen and (max-width: 900px) {
+    .main {
+        width: 100%;
+    }
+
+    .toly-Container-Encabezado {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr;
+        grid-gap: 10px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .toly-Ucrania {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-gap: 10px;
+        margin: 10px;
+    }
+
+    .toly-Container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main {
+        width: 100%;
+    }
+
+    .toly-Ucrania {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin: 10px;
+    }
+
+    .toly-In-Ucrania {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    .toly-Container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+
+    .toly-Card {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /*text-align: center;*/
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 630px) {
+    .main {
+        width: 100%;
+    }
+
+    .toly-Container-Encabezado {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .toly-Container-Menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        width: 100%;
+    }
+
+    .toly-Ucrania {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin: 10px;
+    }
+
+    .toly-In-Ucrania {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    .toly-Container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    .toly-Container-Foot {
+        /*background-color: #888DBB;*/
+        background-color: #756A9E;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: white;
+        /* text-align: center; */
+    }
+
+    .toly-Card {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /*text-align: center;*/
+        align-items: center;
+    }
+
+    #modal {
+        width: 424%;
+        height: 85%;
+        overflow: hidden;
+        background-color: white;
+        border: none;
+    }
+
+    #modal2 {
+        width: 424px;
+        height: 85%;
+        overflow: hidden;
+        background-color: white;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .main {
+        width: 100%;
+    }
+
+    .toly-Container-Encabezado {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .toly-Container-Menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        width: 100%;
+    }
+
+    .toly-Ucrania {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin: 10px;
+    }
+
+    .toly-In-Ucrania {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    .toly-Container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    .toly-Container-Foot {
+        /*background-color: #888DBB;*/
+        background-color: #756A9E;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: white;
+        align-items: center;
+        /* text-align: center; */
+    }
+
+    .toly-Card {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /*text-align: center;*/
+        align-items: center;
+    }
+
+    .toly-Container-Foot-B{
+        /*background-color: #888DBB;*/
+        background-color: #756A9E;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: white;
+        align-items: center;
+        
+        /* text-align: center; */
+    }
+    
+}
+
+@media screen and (max-width: 280px) {
+    .main {
+        width: 100%;
+    }
+
+    .toly-Container-Encabezado {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .toly-Container-Menu {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        width: 100%;
+    }
+
+    .toly-Ucrania {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin: 10px;
+    }
+
+    .toly-In-Ucrania {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    .toly-Container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    .toly-Container-Foot {
+        /*background-color: #888DBB;*/
+        background-color: #756A9E;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: white;
+        align-items: center;
+        /* text-align: center; */
+    }
+
+    .toly-Card {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /*text-align: center;*/
+        align-items: center;
+    }
+
+    .toly-Container-Foot-B{
+        /*background-color: #888DBB;*/
+        background-color: #756A9E;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: white;
+        align-items: center;
+        
+        /* text-align: center; */
+    }
+    
+}

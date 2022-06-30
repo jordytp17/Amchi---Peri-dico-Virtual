@@ -1,0 +1,220 @@
+#toly-welcome{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.toly-Container-Encabezado{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 10px;
+    grid-template-rows: minmax(200px, auto);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.toly-Card-Encabezado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.toly-Lir
+{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.toly-border-round{
+    border-radius: 50%;
+}
+
+#toly-publi{
+
+    color: blue;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*text-decoration: none;*/
+}
+
+.toly-hr{
+    padding: 0px;
+    margin: 0px;
+}
+
+.toly-Container-Menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.toly-Card-Menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.toly-menu-main{
+    color: darkblue;
+}
+
+.toly-Ucrania{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+#toly-center{
+    text-align: center;
+}
+
+.toly-style-head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.toly-In-Ucrania{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.toly-card-Ucrania
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*text-align: center;*/
+    align-items: center;
+    padding: 10px
+}
+
+.toly-style-lyric{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.toly-Container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.toly-Card{
+    padding: 15px;
+}
+
+.toly-style-head-less{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30PX;
+    text-align: center;
+    font-weight: bold;
+}
+
+.toly-fluid{
+    width: 395px;
+    height: 270px;
+    padding-bottom: 15px;
+    margin: 8px;
+}
+
+.toly-style-lyric-less{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.toly-Container-Foot-B{
+    /*background-color: #888DBB;*/
+    background-color: #756A9E;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    
+    /* text-align: center; */
+}
+
+.toly-center-foot{
+    text-align: center;
+    font-size: 30px;
+}
+
+.toly-Container-Foot{
+    /*background-color: #888DBB;*/
+    background-color: #756A9E;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    
+    /* text-align: center; */
+}
+
+.toly-decoration-a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.toly-center-foot{
+    text-align: center;
+    font-size: 30px;
+}
+
+.toly-centrado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#toly-textarea-publicacion{
+    width: 90%;
+    border-color: black;
+}
+
+#toly-add-commit{
+    margin: 18px;
+    color: white;
+    background-color: green;
+}
+
+#toly-file{
+    margin: 16px;
+    font-size: 20px;
+}
+
+#toly-nac{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#toly-date{
+    color: black;
+    font-size: 20px;
+}
+
+.toly-admin-link{
+    font-size: 26 px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+    margin: 10px;
+}

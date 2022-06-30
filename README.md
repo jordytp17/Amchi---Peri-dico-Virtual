@@ -1,1 +1,0 @@
-# Amchi---Peri-dico-Virtual

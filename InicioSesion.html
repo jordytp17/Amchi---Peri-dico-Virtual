@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <link href="css/styleOther.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="toly-general">
+            <h2 id="toly-donacion" class="fw-bold">__________Inicio de sesión__________</h3>
+                <div class="toly-main">
+
+                    <div class="toly-main-in-center">
+                        <img src="images/rebIcon.jpg" alt="Identificacio" class="img-fluid toly-reb">
+                        <div>
+                            <input type="text" placeholder="Usuario" class="toly-input-campus">
+                        </div>
+                        <div>
+                            <input type="password" placeholder="Contraseña" class="toly-input-campus">
+                        </div>
+                    </div>
+
+                </div>
+                <br>
+                <div class="toly-don-divide">
+                    <div>
+
+                    </div>
+                    <div class="toly-main-in-center">
+                        <div>
+                            <input type="checkbox" checked>
+                            <label class="toly-remember">Recordar</label>
+                        </div>
+                        <a href="CrearCuenta.html">
+                            <label class="toly-without-hiper">Crear cuenta</label>
+                        </a>
+                    </div>
+                    <div class="toly-main-in-center">
+                        <div>
+                            <label class="toly-remember">¿Ha olvidado su contraseña?</label>
+                        </div>
+                        <!--<img src="images/Donate.jpg" class="img-fluid toly-round-picture" alt="Donar" width="200px"
+                            height="70px">-->
+                        <input type="button" value="Acceder" onclick="msc()" id="toly-btn-inicio">
+                    </div>
+                    <div class="toly-main-in-center">
+
+                    </div>
+                </div>
+                <br>
+        </div>
+        <div class="toly-general">
+            <div class="toly-main">
+                <div class="toly-main-in-center">
+                    <a href="InicioAdmin.html" id="toly-inicio-admin">Iniciar como Administrador</a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <script>
+        function msc() {
+            alert("Espere un momento miestras revisamos credenciales, gracias!")
+        }
+    </script>
+</body>
+
+</html>

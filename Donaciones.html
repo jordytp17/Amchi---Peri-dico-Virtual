@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donaciones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <link href="css/styleOther.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="toly-general">
+            <br>
+            <br>
+            <br>
+            <h2 id="toly-donacion" class="fw-bold">__________Donaciones__________</h3>
+                <br>
+                <br>
+                <div class="toly-main">
+
+                    <div class="toly-main-in-center">
+                        
+                        <div>
+                            <input type="text" placeholder="Usuario" class="toly-input-campus">
+                        </div>
+                        <div>
+                            <input type="password" placeholder="Contraseña" class="toly-input-campus">
+                        </div>
+                        <div>
+                            <input type="number" placeholder="Cantidad ($)" class="toly-input-campus">
+                        </div>
+                    </div>
+
+                </div>
+                <br>
+                <div class="toly-don-divide">
+                    <div>
+
+                    </div>
+                    <div class="toly-main-in-center">
+                        <a href="https://www.paypal.com/ni/signin">
+                            <img src="images/PayPal.png" class="img-fluid toly-round-picture" alt="PayPal" width="200px"
+                            height="50px">
+                        </a>
+                    </div>
+                    <div class="toly-main-in-center">
+                        <!--<img src="images/Donate.jpg" class="img-fluid toly-round-picture" alt="Donar" width="200px"
+                            height="70px">-->
+                        <input type="button" value="Donar ahora" onclick="msc()" id="toly-btn-donar">
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+        </div>
+
+    </main>
+
+    <script>
+        function msc(){
+            alert("Usted ha donado, gracias!")
+        }
+    </script>
+    <script src="javascript/archivomain.js">
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,301 @@
+.toly-border-round {
+    border-radius: 50%;
+}
+
+/*.toly-back{
+    background-color: #430BE2;
+}*/
+
+.toly-Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.toly-Card {
+    padding: 15px;
+}
+
+.toly-fluid {
+    width: 395px;
+    height: 270px;
+    padding-bottom: 15px;
+    margin: 8px;
+}
+
+.toly-Container-Encabezado {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 10px;
+    grid-template-rows: minmax(200px, auto);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.toly-Card-Encabezado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#Lang {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 0px 6px 0px 0px;
+}
+
+.toly-Lir {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.toly-Container-Menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.toly-Card-Menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.toly-hr {
+    padding: 0px;
+    margin: 0px;
+}
+
+.toly-Ucrania {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+.toly-In-Ucrania {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.toly-card-Ucrania {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*text-align: center;*/
+    align-items: center;
+    padding: 10px
+}
+
+#toly-center {
+    text-align: center;
+}
+
+.toly-Container-Foot {
+    /*background-color: #888DBB;*/
+    background-color: #756A9E;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+
+    /* text-align: center; */
+}
+
+.toly-Container-Foot-B {
+    /*background-color: #888DBB;*/
+    background-color: #756A9E;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+
+    /* text-align: center; */
+}
+
+.toly-center-foot {
+    text-align: center;
+    font-size: 30px;
+}
+
+/*#all-right-foot
+{
+    margin: 0px;
+    background-color: #430BE2;
+    padding: 0px;
+}*/
+
+.toly-decoration-a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.toly-style-lyric {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.toly-style-head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.toly-style-head-less {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30PX;
+    text-align: center;
+    font-weight: bold;
+}
+
+.toly-style-lyric-less {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.toly-centrado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#toly-add-commit {
+    margin: 18px;
+    color: white;
+    background-color: green;
+}
+
+#toly-publi {
+
+    color: blue;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*text-decoration: none;*/
+}
+
+#toly-file {
+    margin: 16px;
+}
+
+.toly-menu-main {
+    text-decoration: none;
+    color: darkblue;
+}
+
+#toly-textarea {
+    width: 90%;
+    border-color: black;
+}
+
+#toly-textarea-publicacion {
+    width: 90%;
+    border-color: black;
+}
+
+#modal {
+    width: 60%;
+    height: 85%;
+    overflow: hidden;
+    background-color: white;
+    border: none;
+}
+
+#toly-frame {
+    width: 100%;
+    height: 100%;
+    border: red;
+}
+
+#btn-cerrar-modal {
+    position: absolute;
+}
+
+#modal2 {
+    width: 60%;
+    height: 85%;
+    overflow: hidden;
+    background-color: white;
+    border: none;
+}
+
+#toly-frame2 {
+    width: 100%;
+    height: 100%;
+    border: red;
+}
+
+#btn-cerrar-suscripcion {
+    position: absolute;
+}
+
+#btn-abrir-suscripcion {
+    color: white;
+    background-color: red;
+    font-size: 22px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50px;
+}
+
+#btn-abrir-modal {
+    color: white;
+    background-color: darkblue;
+    font-size: 22px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50px;
+}
+
+.toly-admin-link {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40 px;
+    color: darkblue;
+    margin: 0px 0px 5px 0px;
+}
+
+#modal3 {
+    width: 60%;
+    height: 85%;
+    overflow: hidden;
+    background-color: white;
+    border: none;
+}
+
+#btn-cerrar-donacion {
+    position: absolute;
+}
+
+#toly-frame3 {
+    width: 100%;
+    height: 100%;
+    border: red;
+}
+
+#btn-abrir-donacion {
+    color: white;
+    background-color: red;
+    font-size: 22px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50px;
+}

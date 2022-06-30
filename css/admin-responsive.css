@@ -1,0 +1,71 @@
+@media screen and (max-width: 900px) {
+
+    .toly-Container-Encabezado {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr;
+        grid-gap: 10px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .toly-Ucrania {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-gap: 10px;
+        margin: 10px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .toly-Container-Encabezado {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .toly-Ucrania {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin: 10px;
+    }
+
+}
+
+@media screen and (max-width: 532px) {
+
+    .toly-Container-Encabezado {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .toly-Ucrania {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin: 10px;
+    }
+
+    .toly-Container-Menu{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    .toly-In-Ucrania{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+}
